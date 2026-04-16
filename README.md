@@ -21,14 +21,17 @@ Let's collaborate! Each student will add a page to this website.
 
 1. Do not make changes to the main branch.
 2. Create a branch named after yourself.
-3. In that branch, create a page.
-   - Your page should at least have the files index.html and style.css
-4. Include:
+3. In that branch, create a folder names after yourself.
+4. In that folder, create a page.
+   - Your page should at least have the files `index.html` and `style.css`
+5. Include (described above):
    - Greeting
    - Origin story
    - Image
    - Attribution
    - Link back to home page.
-5. Use flexbox to organize your page structure.
-6. Add your page to the home page.
+6. Use flexbox to organize your page structure.
+7. Add your page to the home page.
    - Edit the home page `index.html` and add a link to your page with the tags `<li>` and `<a>`
+8. Commit your changes.
+   - Include proper commit messages.
