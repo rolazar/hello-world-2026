@@ -6,20 +6,20 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Hello world! I am Amber. This is my page.</h1>
+    <h1>I am Amber T. McKnight. This is my page.</h1>
     <p>This is my first time learning how to code. <br 
      I am learning how code for buisness and career advancement.<br
      I am excited to learn how to code and see what I can do with it in the future.<br  </p> 
      <body>
      <div class="picture">
         <div>
-          <img src="" />
+          <img src="92ECD092-4FD8-489C-AEBB-152F1E4864D0_1_105_c.jpeg" />
           <a
-          href="https://mapmygenome.in/cdn/shop/articles/The_Science_Behind_Yoga_and_Its_Benefits_for_Mental_Health.jpg?v=1738302589&width=3000"
-          >Yoga Image - © 2026, Mapmygenome. All rights reserved</a
+            href="https://www.linkedin.com/in/amber-mcknight-9a1b4a1b3/"
+          >Amber-Image "Amber Mcknight" COO 2026</a>
         >
         </div>
     >
-    <a href="/index.html">Back To Home</a>
+    <a href="../index.html">Back To Home</a>
   </body>
 </html>
