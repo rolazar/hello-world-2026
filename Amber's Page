@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello world!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Hello world! I am Amber. This is my page.</h1>
+    <p>This is my first time learning how to code. <br 
+     I am learning how code for buisness and career advancement.<br
+     I am excited to learn how to code and see what I can do with it in the future.<br  </p> 
+     <body>
+     <img src="coding.jpg" />
+    <a
+      href="https://pixabay.com/photos/software-developer-web-developer-6521720/"
+      >Coding picture - Innovalabs - Pixabay - CC0</a
+    >
+    <a href="/index.html">Back To Home</a>
+  </body>
+</html>
