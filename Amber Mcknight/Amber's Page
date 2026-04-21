@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello world!</title>
+    <title>Hello World!</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
@@ -10,16 +10,24 @@
     <p>This is my first time learning how to code. <br 
      I am learning how code for buisness and career advancement.<br
      I am excited to learn how to code and see what I can do with it in the future.<br  </p> 
-     <body>
+   <body>
      <div class="picture">
         <div>
+         
           <img src="92ECD092-4FD8-489C-AEBB-152F1E4864D0_1_105_c.jpeg" />
-          <a
-            href="https://www.linkedin.com/in/amber-mcknight-9a1b4a1b3/"
-          >Amber-Image "Amber Mcknight" COO 2026</a>
-        >
+       
+        <nav>
+          <ul>
+            <li>
+           <a href="https://www.linkedin.com/in/amber-mcknight-9a1b4a1b3/"
+            >Amber-Image "Amber McKnight" COO 2026</li> </a>
+
+            </li> <a href="../index.html">Back To Home </li> </a>
+                
+          </ul>
         </div>
     >
     <a href="../index.html">Back To Home</a>
+    <Footer> Copyright 2026 Amber McKnight</Footer>
   </body>
 </html>
