@@ -56,6 +56,17 @@ body {
   flex-direction: column;
 }
 
+.picture div img{
+  width: 100%;
+  height: 75%;
+  transition: transform 0.5s;
+}
+
+.picture div img:hover{
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+
 /* Corrected selector for the paragraph/link inside the card */
 .picture div a {
   margin-top: 10px;
