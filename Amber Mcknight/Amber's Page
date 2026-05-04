@@ -13,23 +13,22 @@
     <h2>What can you do with code?</h2>
 
    <body>
-     <div class="picture">
-        <div>
-         
-          <img src="92ECD092-4FD8-489C-AEBB-152F1E4864D0_1_105_c.jpeg" />
-       
-        <nav>
-          <ul>
-            <li>
-           <a href="https://www.linkedin.com/in/amber-mcknight-9a1b4a1b3/"
-            >Amber-Image "Amber McKnight" COO 2026</li> </a>
+    <div class="picture">
+        <img src="92ECD092-4FD8-489C-AEBB-152F1E4864D0_1_105_c.jpeg" alt="Amber McKnight" />
+      </div>
 
-            </li>a href="amber-mcknight/index.html">Amber McKnight</a></li>
-                
-          </ul>
-        </div>
-    >
-    <a href="../index.html">Back To Home</a>
-    <Footer> Copyright 2026 Amber McKnight</Footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/amber-mcknight-9a1b4a1b3/">Amber McKnight COO 2026</a>
+          </li>
+          <li>
+            <a href="../index.html">Back To Home</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+    <footer>Copyright 2026 Amber McKnight</footer>
   </body>
 </html>
