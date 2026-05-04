@@ -6,10 +6,22 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+  padding: 20px;
+  border-radius: 10px;
 }
 
+
 body {
-  background-color: lightblue;
+  /* Replacing color background with actual file name */
+  background-image: url ('pmutombo-background-Photo.jpg');
+  /* This ensures the image cover the entire background */
+  background-size: cover;
+  /* This keeps the image from scrolling with the page */
+  background-attachment: fixed;
+  /* This centers the image */
+  background-position: center;
+  /* background-color: lightblue; */
   padding-top: 10vh;
   padding-left: 30vw;
   padding-right: 30vw;
@@ -23,31 +35,33 @@ body {
   font-weight: bold;
 }
 
-.picture div{
+/* Container for the image cards */
+.picture {
+  display: flex;       /* Sets up the flex container */
+  flex-wrap: wrap;     /* Allows items to wrap to the next line if space is tight */
+  justify-content: center; /* Centers the cards horizontally */
+  gap: 20px;           /* Adds space between the cards */
+  width: 100%;
+}
+
+/* Individual card styling */
+.picture div {
   border: 2px solid black;
   padding: 10px;
-  margin: 10px;
-  height: 300px;
-  width: 250px;
   background-color: lightgray;
+  width: 250px;       /* Fixed width ensures they sit side-by-side */
+  height: auto;       /* Let the height adjust to content */
+  display: flex;
+  flex-direction: column;
 }
 
-.picture div img{
-  width: 100%;
-  height: 50%;
-  transition: transform 0.5s;
+/* Corrected selector for the paragraph/link inside the card */
+.picture div a {
+  margin-top: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
 }
 
-.picture div img:hover{
-  transform: translateY(-8px);
-  cursor: pointer;
-}
-
-picture div p{
-  margin-top: 0px;
-  margin-bottom: 5px;
-  padding-top: 0px;
-}
 
 /* style for the footer containing the images credit */
 .footer-styles{
