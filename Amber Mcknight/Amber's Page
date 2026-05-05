@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>I am Amber T. McKnight. This is my page.</h1>
+    <p>This is my first time learning how to code. <br 
+     I am learning how code for buisness and career advancement.<br
+     I am excited to learn how to code and see what I can do with it in the future.<br  </p> 
+    <h2>What can you do with code?</h2>
+
+   <body>
+    <div class="picture">
+        <img src="92ECD092-4FD8-489C-AEBB-152F1E4864D0_1_105_c.jpeg" alt="Amber McKnight" />
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/amber-mcknight-9a1b4a1b3/">Amber McKnight COO 2026</a>
+          </li>
+          <li>
+            <a href="../index.html">Back To Home</a>
+          </li>
+         <li>
+          <a href="Amber Mcknight.html">Go to Hello World Page</a>
+         </li> 
+        </ul>
+      </nav>
+    </main>
+
+    <footer>Copyright 2026 Amber McKnight</footer>
+  </body>
+</html>
