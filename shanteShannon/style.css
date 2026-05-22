@@ -1,0 +1,58 @@
+body {
+  background-color: fuchsia;
+}
+
+h1 {
+  text-decoration: underline;
+  color: aqua;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  color: black;
+}
+
+.image1 > img {
+  width: 95vh;
+  height: 75vh;
+  margin-left: 50vh;
+  margin-right: 50vh;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.images {
+  width: 35vh;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.container img {
+  width: 25vh;
+  height: 25vh;
+}
+.sources {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
