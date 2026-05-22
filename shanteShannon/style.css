@@ -21,8 +21,8 @@ p {
 .image1 > img {
   width: 95vh;
   height: 75vh;
-  margin-left: 50vh;
-  margin-right: 50vh;
+  display: block;
+  margin: auto;
   border-color: black;
   border-width: 2px;
   border-style: solid;
