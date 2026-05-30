@@ -1,7 +1,6 @@
 body {
-  padding: 0;
-  margin: 0;
-  background-color: rgb(105, 195, 255);
+  padding: 0px;
+  margin: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white;
 }
@@ -10,12 +9,27 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 
-img {
-  height: 70vh;
-  margin-left: auto;
-  margin-right: auto;
+.picture {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.picture img {
+  flex: 1;
+  min-width: 0;
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
 
 a {
@@ -26,6 +40,8 @@ ul {
   width: max-content;
   margin-left: auto;
   margin-right: auto;
+  list-style: none;
+  padding: 0;
 }
 
 p {
@@ -34,14 +50,12 @@ p {
   color: purple;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
   color: blue;
-  font-size: 30px;
 }
 
-img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-  border: 5px solid bold black;
+h1 {
+  font-size: 30px;
 }
