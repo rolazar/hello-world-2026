@@ -6,35 +6,59 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #1a1a1a;;
+  padding: 20px;
+  border-radius: 10px;
 }
 
+
 body {
-  background-color: lightblue;
+  /* Replacing color background with actual file name */
+  background-image: url('pmutombo-background-Photo.jpg');
+  /* This ensures the image cover the entire background */
+  background-size: contain;
+  /* This keeps the image from scrolling with the page */
+  background-attachment: fixed;
+  /* This centers the image */
+  background-position: center;
+  /* background-color: lightblue; */
+  color : #00ff00; /*Classic hacker green */;
   padding-top: 10vh;
   padding-left: 30vw;
   padding-right: 30vw;
 }
 
 .header-style{
-  font-size: 25px;
-  color: rgb(4, 78, 4);
-  background-color:pink;
+  font-size: 40px;
+  color: #00ff00; /*Classic hacker green */;
+  background-color: #1a1a1a;
   text-align: center;
   font-weight: bold;
 }
 
-.picture div{
+/* Container for the image cards */
+.picture {
+  display: flex;       /* Sets up the flex container */
+  flex-wrap: wrap;     /* Allows items to wrap to the next line if space is tight */
+  justify-content: center; /* Centers the cards horizontally */
+  gap: 20px;           /* Adds space between the cards */
+  width: 100%;
+}
+
+/* Individual card styling */
+.picture div {
   border: 2px solid black;
   padding: 10px;
-  margin: 10px;
-  height: 300px;
-  width: 250px;
   background-color: lightgray;
+  width: 250px;       /* Fixed width ensures they sit side-by-side */
+  height: auto;       /* Let the height adjust to content */
+  display: flex;
+  flex-direction: column;
 }
 
 .picture div img{
   width: 100%;
-  height: 50%;
+  height: 75%;
   transition: transform 0.5s;
 }
 
@@ -43,11 +67,13 @@ body {
   cursor: pointer;
 }
 
-picture div p{
-  margin-top: 0px;
-  margin-bottom: 5px;
-  padding-top: 0px;
+/* Corrected selector for the paragraph/link inside the card */
+.picture div a {
+  margin-top: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
 }
+
 
 /* style for the footer containing the images credit */
 .footer-styles{
@@ -55,12 +81,12 @@ picture div p{
   justify-content: center;
   align-items: center;
   height: 50px;
-  color: black;
+  color: #00ff00; /*Classic hacker green */
 }
 
 /* h3 style */
 h3 {
-  color:#053C5E;
+  color: #bb86fc; /* A nice "pop" color for dark mode */
   margin-bottom: 10px;
 }
 
@@ -117,4 +143,10 @@ flex-basis: 15vh;
   border-radius: 5vh;
   width: 100%;
   text-align: center;
+}
+
+.heart {
+  color: rgba(255, 255, 255, 0.8); /*White with 80% opacity */
+  font-size: 30px;
+  font-weight: bold;
 }
