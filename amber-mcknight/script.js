@@ -1,12 +1,16 @@
-const img1 = document.getElementById("img1");
-if (img1) {
-  img1.src = "92ECD092-4FD8-489C-AEBB-152F1E4864D0_1_105_c.jpeg";
+function handleSubmit() {}
+
+// 1. Check and update Box 1
+if (document.getElementById("pic1")) {
+  document.getElementById("pic1").innerText = "MOM";
 }
-const img2 = document.getElementById("img2");
-if (img2) {
-  img2.src = "peace.jpg";
+
+// 2. Check and update Box 2
+if (document.getElementById("pic2")) {
+  document.getElementById("pic2").innerText = "PEACE";
 }
-const img3 = document.getElementById("img3");
-if (img3) {
-  img3.src = "conquering code.jpg";
+
+// 3. Check and update Box 3
+if (document.getElementById("pic3")) {
+  document.getElementById("pic3").innerText = "CODE CONQUER";
 }
