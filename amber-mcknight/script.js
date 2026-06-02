@@ -4,16 +4,12 @@ const images = [
   { name: "Vision of Peace" },
   { name: "Computers" },
 ];
-for (let i = 0; i < images.length; i++) {
-  const image = images[i];
-  images.innerHTML = "";
-  images.innerHTML += `<p>${imageItem.name}</p>`;
-}
 
 images.innerHTML = "";
 
 for (let i = 0; i < imagesList.length; i++) {
   const imageItem = imagesList[i];
-  images.innerHTML += imageItem.name + ",";
+  images.innerHTML += imageItem.name + "<br>";
   console.log(imageItem.name);
 }
+// I know that adding a <br> will line the names in column
