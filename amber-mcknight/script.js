@@ -12,4 +12,4 @@ for (let i = 0; i < imagesList.length; i++) {
   images.innerHTML += imageItem.name + "<br>";
   console.log(imageItem.name);
 }
-// I know that adding a <br> will line the names in column
+// I know that adding a <br> to line 12will line the names in column
