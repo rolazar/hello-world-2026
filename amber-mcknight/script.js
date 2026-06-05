@@ -1,15 +1,30 @@
-const images = document.getElementById("images");
-const images = [
-  { name: "Amber" },
-  { name: "Vision of Peace" },
-  { name: "Computers" },
-];
+const formTag = document.getElementById("myFormId"); // Using getElementById for consistency
+formTag.onsubmit = handleSubmit;
 
-images.innerHTML = "";
+const cap1 = document.getElementById("cap1");
+const cap2 = document.getElementById("cap2");
+const cap3 = document.getElementById("cap3");
 
-for (let i = 0; i < imagesList.length; i++) {
-  const imageItem = imagesList[i];
-  images.innerHTML += imageItem.name + "<br>";
-  console.log(imageItem.name);
+function handleSubmit(event) {
+  event.preventDefault();
+  const form = event.target;
+  const isChecked1 = form.elements.checkbox1.checked;
+  const isChecked2 = form.elements.checkbox2.checked;
+  const isChecked3 = form.elements.checkbox3.checked;
+
+  if (isChecked1) {
+    cap1.innerText = "Mckenzie";
+  } else {
+    cap1.innerText = "";
+  }
+  if (isChecked2) {
+    cap2.innerText = "Bethany";
+  } else {
+    cap2.innerText = "";
+  }
+  if (isChecked3) {
+    cap3.innerText = "Mom";
+  } else {
+    cap3.innerText = "";
+  }
 }
-// I know that adding a <br> to line 12will line the names in column
