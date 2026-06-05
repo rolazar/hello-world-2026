@@ -1,4 +1,4 @@
-const formTag = document.getElementById("myFormId"); // Using getElementById for consistency
+const formTag = document.getElementById("imageFormId");
 formTag.onsubmit = handleSubmit;
 
 const cap1 = document.getElementById("cap1");
@@ -13,17 +13,17 @@ function handleSubmit(event) {
   const isChecked3 = form.elements.checkbox3.checked;
 
   if (isChecked1) {
-    cap1.innerText = "Mckenzie";
+    cap1.innerText = "Amber";
   } else {
     cap1.innerText = "";
   }
   if (isChecked2) {
-    cap2.innerText = "Bethany";
+    cap2.innerText = "Vision of Peace";
   } else {
     cap2.innerText = "";
   }
   if (isChecked3) {
-    cap3.innerText = "Mom";
+    cap3.innerText = "Computers";
   } else {
     cap3.innerText = "";
   }
