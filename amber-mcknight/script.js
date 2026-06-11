@@ -1,16 +1,7 @@
-const img1 = document.getElementById("img1");
+const captionOne = document.getElementById("cap1");
+const captionTwo = document.getElementById("cap2");
+const captionThree = document.getElementById("cap3");
 
-if (img1) {
-  img1.insertAdjacentHTML("afterend", "AMBER");
-}
-const img2 = document.getElementById("img2");
-
-if (img2) {
-  img2.insertAdjacentHTML("afterend", "PEACE");
-}
-
-const img3 = document.getElementById("img3");
-
-if (img3) {
-  img3.insertAdjacentHTML("afterend", "CODE CONQUER");
-}
+captionOne.innerText = "Amber";
+captionTwo.innerText = "Vision of Peace";
+captionThree.innerText = "Conquering Code";
