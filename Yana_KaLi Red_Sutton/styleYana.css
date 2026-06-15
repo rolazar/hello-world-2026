@@ -1,3 +1,9 @@
+.header-style {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
 body {
   color: black;
   background-color: red;
@@ -14,6 +20,32 @@ img {
   width: 40vw;
 }
 
+.picture div img:hover {
+  zoom: 175%;
+  cursor: pointer;
+}
+
 p {
   text-align: center;
+}
+
+.link div {
+  font-size: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  text-align: center;
+  font-style: italic;
+  padding: 3vh;
+}
+
+a:hover {
+  color: white;
+  text-decoration-style: wavy;
+}
+
+.footer-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
